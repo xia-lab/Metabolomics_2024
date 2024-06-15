@@ -1,4 +1,4 @@
-# Metabolomics 2024: a unified platform for metabolomics data processing, analysis and interpretation tool - MetaboAnalyst 6.0
+# MetaboAnalyst 6.0: a unified platform for metabolomics data processing, analysis and interpretation
 
 ![alt text](https://raw.githubusercontent.com/xia-lab/Metabolomics_2024/main/Figure1.png)
 
