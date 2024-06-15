@@ -3,10 +3,10 @@
 ![alt text](https://raw.githubusercontent.com/xia-lab/Metabolomics_2024/main/Figure1.png)
 
 For this workshop, we will be covering four main topics: 
-* Auto-Optimized LC-MS spectra processing and peak annotation;
-* Statistical Analysis of One-factor experimental design;
-* Functional analysis from LC-MS peaks; 
-* Exploratory statistical analysis with complex metadata. 
+* Auto-Optimized LC-MS/MS spectra processing and compound identification;
+* Functional analysis from LC-MS peaks;
+* Statistical Analysis of One-factor experimental design and complex metadata;
+* Causal Analysis. 
 
 Details for each workflow are below. 
 
