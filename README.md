@@ -14,13 +14,13 @@ Details for each workflow are below.
 
 <br/>
 
-# Slides Summary
+# Slides In Sections
 
-- [Introduction and Key Concepts](https://github.com/xia-lab/Metabolomics_2023/blob/main/intro.pdf).
-- [Metabolomics Raw Spectra Data and Processing](https://github.com/xia-lab/Metabolomics_2023/blob/main/section_1_LCMS_processing.pdf).
-- [Metabolomics Statistical Analysis of One-factor experimental design](https://github.com/xia-lab/Metabolomics_2023/blob/main/section_2_basic_stats.pdf).
+- [Introduction and Key Concepts](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/General_intro_MetaboAnalyst.pdf).
+- [LC-MS/MS spectral processing and compound indentification](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/LC_MSMS_spec_section.pdf).
+- [Functional analysis from LC-MS peaks](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/Functional_analysis_section.pdf).
+- [Metabolomics Statistical Analysis of One-factor experimenta and complex metadatal design](https://github.com/xia-lab/Metabolomics_2023/blob/main/section_2_basic_stats.pdf).
 
-- [Functional analysis from LC-MS peaks](https://github.com/xia-lab/Metabolomics_2023/blob/main/section_3_functional_analysis.pdf).
 - [Statistical Analysis with Complex Meta-Data](https://github.com/xia-lab/Metabolomics_2023/blob/main/section_4_complex_stats.pdf).
 
 <br/>
