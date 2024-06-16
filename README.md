@@ -10,7 +10,7 @@ For this workshop, we will be covering four main topics:
 
 Details for each workflow are below. 
 
-#### <ins>Before you start, please download our Protocols for MetaboAnalyst 5.0 [here](https://www.nature.com/articles/s41596-022-00710-w) as a reference.</ins>
+#### <ins>Before you start, please download [MetaboAnalyst 6.0](https://doi.org/10.1093/nar/gkae253) and [MetaboAnalystR 4.0](https://www.nature.com/articles/s41467-024-48009-6) as references.</ins>
 
 <br/>
 
