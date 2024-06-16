@@ -62,10 +62,15 @@ The aim of this workflow is to perform statistical analysis based on complex met
 To understand more background knowledge on metabolomics data analysis further, you can follow these documents/protocols below. 
 
 #### MetaboAnalyst latest Nature Protocols
-[Using MetaboAnalyst 5.0 for LC–HRMS spectra processing, multi-omics integration and covariate adjustment of global metabolomics data](https://doi.org/10.1038/s41596-022-00710-w)
+[Using MetaboAnalyst Nature Protocol](https://doi.org/10.1038/s41596-022-00710-w)
 
 #### Latest tutorials of MetaboAnalyst
-[All tutorial series](https://new.metaboanalyst.ca/MetaboAnalyst/docs/Tutorials.xhtml)
+[All tutorial series](https://www.metaboanalyst.ca/MetaboAnalyst/docs/Tutorials.xhtml)
+
+
+#### Latest tutorials of MetaboAnalystR
+[MetaboAnalystR tutorial](https://www.metaboanalyst.ca/MetaboAnalyst/docs/RTutorial.xhtml)
+
 
 #### Multi-omics integration and protocols
 [Web-based multi-omics integration using the Analyst software suite](https://www.nature.com/articles/s41596-023-00950-4)
