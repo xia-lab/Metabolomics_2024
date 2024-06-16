@@ -54,6 +54,8 @@ The aim of this workflow is to perform statistical analysis based on complex met
 
 ## 4) Causal Analysis
 
+The causal relationships between metabolites and phenotypes is of great interest in both metabolomics and exposomics. In this section, we are going to use module **Causal Analysis [Mendelian Randomization]** from MetaboAnalyst 6.0, which provides diverse statistical methods (currently 12), each of which has its own strengths and limitations. In this section, we are going to perform a causal analysis on the associations between one of the significant metabolites identified to be related to the diabetes, L-Cystathionine and type 2 diabetes (GWAS ID: finn-b-E4_DM2). Here is the tutorial for this [module](https://api2.xialab.ca/api/download/metaboanalyst/4_Causal_Analysis.pdf).
+
 
 <br/>
 
