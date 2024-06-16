@@ -19,42 +19,41 @@ Details for each workflow are below.
 - [Introduction and Key Concepts](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/General_intro_MetaboAnalyst.pdf).
 - [LC-MS/MS spectral processing and compound indentification](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/LC_MSMS_spec_section.pdf).
 - [Functional analysis from LC-MS peaks](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/Functional_analysis_section.pdf).
-- [Metabolomics Statistical Analysis of One-factor experimenta and complex metadatal design](https://github.com/xia-lab/Metabolomics_2023/blob/main/section_2_basic_stats.pdf).
-
-- [Statistical Analysis with Complex Meta-Data](https://github.com/xia-lab/Metabolomics_2023/blob/main/section_4_complex_stats.pdf).
+- [Metabolomics Statistical Analysis of One-factor experimenta and complex metadatal design](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/statistics_section.pdf).
+- [Causal Analysis and conclusion](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/Causal_analysis_summarization.pdf).
 
 <br/>
 
 ## 1) LC-MS Spectra Processing and Annotation
 
-The aim of this workflow is to use **LC-MS Spectra Processing module** in [MetaboAnalyst](https://www.metaboanalyst.ca/) to analyze the raw spectra data from a real-world experiments. This section includes raw spectral data format conversion and centroiding. Then we will show a quick demon on how to use MetaboAnalyst for raw data processing in the auto-optimized mode. The data was obtained using untargeted metabolomics (Q-Exactive Plus Orbitrap MS in positive ion mode) of blood samples from 6 malaria semi-immune patients and 6 naive controls. 6 pooled QC samples are also included. In this section, students will learn how to run the auto-optimized raw spectra processing workflow.
+The aim of this workflow is to use **LC-MS Spectra Processing module** in [MetaboAnalyst](https://www.metaboanalyst.ca/) to analyze the raw spectra data from a real-world experiments. This section includes raw spectral data format conversion and centroiding. Then we will show a quick demon on how to use MetaboAnalyst for raw LC-MS/MS spectra data processing. The data was obtained using untargeted metabolomics (Q-Exactive Plus Orbitrap MS in positive ion mode) of different blood types (whole blood, serum and plasma). 6 pooled QC samples and DDA MS/MS spectra files are also included. In this section, students will learn how to run the auto-optimized raw spectra processing workflow.
 
 (Optionally) To practice raw spectral data conversion and centroiding, users could download some raw thermo-fisher spectral data (*.raw) from this [link](https://drive.google.com/file/d/17HwDYqISi60bSUEAghQYSzikkuw89n-9/view?usp=sharing).
 
-For this workflow, users could use the 2nd example directly from the module page or optionally download [here](https://www.dropbox.com/s/ift0zrkh0rx3v80/malaria_raw.zip?dl=0). **For the learning purpose, you are strongly encouraged to use the 1st example directly to run the whole process quickly.**
+For this workflow, users could use the 3rd example directly from the module page or optionally download [here](https://www.dropbox.com/scl/fi/2opls296pzffz5hbvjhun/blood_samples.zip?rlkey=tknlc3iik5yhlm2gmkk423c7m). **For the learning purpose, you are strongly encouraged to use the 1st example directly to run the whole process quickly.**
 
-The tutorial of this module is available [here](https://www.xialab.ca/api/download/metaboanalyst/1_Raw_Spectral_Processing.pdf) for further reference. Watch this [video](https://youtu.be/NSwc7Ywvbpw) to see a live demo of raw spectra data processing with MetaboAnalyst.
+The tutorial of this module is available [here](https://api2.xialab.ca/api/download/metaboanalyst/1_LC_MS_Spectra_Processing.pdf) for further reference. Watch this [video](https://youtu.be/NSwc7Ywvbpw) to see a live demo of raw spectra data processing with MetaboAnalyst.
 
 <br/>
 
-## 2) Statistical Analysis of One-factor experimental design
+## 2) Functional Analysis and Integration 
+
+The aim of this workflow is to introduce the pathway analysis of untargeted metabolomics data using the **Functional Analysis module**. The theory and processing steps of mummichog is described. Users can use the first examples directly from the module page for practicing. 
+The tutorial of this module is available [here]([https://www.xialab.ca/api/download/metaboanalyst/2_Functional_Analysis.pdf]) and [here](https://api2.xialab.ca/api/download/metaboanalyst/5_Functional_Analysis_with_MS2_results.pdf) for further reference. Watch this [video](https://youtu.be/8_CbKcE7iwA) to see a live demo of functional analysis with MetaboAnalyst.
+
+<br/>
+
+## 3) Statistical Analysis of One-factor experimental design and complex metadata
 
 The aim of this workflow is the use the **Statistical Analysis [One Factor] module** in [MetaboAnalyst](https://www.metaboanalyst.ca/) to analyze a concentration table with a simple experimental design. By simple experimental design, we mean a dataset with a single, categorical metadata (ie. Treatment: Control, Drug A, Drug B). This section includes outlier and batch effect detection, missing value imputation, filtering, normalization, transformation, and statistical analysis. Then we will show a quick demo with **Example Data 3** to show how the pipeline works. 
 
 
-
-<br/>
-
-## 3) Functional Analysis and Integration 
-
-The aim of this workflow is to introduce the pathway analysis of untargeted metabolomics data using the **Functional Analysis module**. The theory and processing steps of mummichog is described. Users can use the first examples directly from the module page for practicing. 
-The tutorial of this module is available [here]([https://www.xialab.ca/api/download/metaboanalyst/2_Functional_Analysis.pdf]) for further reference. Watch this [video](https://youtu.be/NSwc7Ywvbpw) to see a live demo of functional analysis with MetaboAnalyst.
-
-<br/>
-
-## 4) Metabolomics Statistical Analysis with Complex Metadata
-
 The aim of this workflow is to perform statistical analysis based on complex metadata. Covariate analysis will be used to deal with a metabolomics data, which is highly affected by multiple metadata factors. This study mainly focus on a peak intensity table from a COVID-19 study (**Example Data 1**) for covariate analysis. The data consists of untargeted metabolomics (a peak table) of 2054 metabolites and a metadata table. The data are from 59 individuals (20 healthy, 39 with COVID-19), and there are metadata values for age, sex, diagnosis, and treatment. 
+
+<br/>
+
+## 4) Causal Analysis
+
 
 <br/>
 
@@ -62,11 +61,19 @@ The aim of this workflow is to perform statistical analysis based on complex met
 
 To understand more background knowledge on metabolomics data analysis further, you can follow these documents/protocols below. 
 
-#### MetaboAnalyst & other omics tools
-[Using MetaboAnalyst for Metabolomics Data Analysis](https://www.dropbox.com/s/7uxzeacpgx6zjux/Metabolomics_MetaboAnalyst_Intro_2022.pptx?dl=0)
+#### MetaboAnalyst latest Nature Protocols
+[Using MetaboAnalyst 5.0 for LC–HRMS spectra processing, multi-omics integration and covariate adjustment of global metabolomics data](https://doi.org/10.1038/s41596-022-00710-w)
 
-#### Key statistical concepts & approaches
-[General Concepts & Workflow in Omics Data Analysis](https://www.dropbox.com/s/stsp01glned47gg/Metabolomics_Stats_Intro_2022.pptx?dl=0)
+#### Latest tutorials of MetaboAnalyst
+[All tutorial series](https://new.metaboanalyst.ca/MetaboAnalyst/docs/Tutorials.xhtml)
+
+#### Multi-omics integration and protocols
+[Web-based multi-omics integration using the Analyst software suite](https://www.nature.com/articles/s41596-023-00950-4)
 
 #### Protocols of Other Modules in MetaboAnalyst
 [Using MetaboAnalyst 4.0 for Comprehensive and Integrative Metabolomics Data Analysis](https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cpbi.86)
+
+#### Critical Algorithms and concepts
+[asari](https://www.nature.com/articles/s41467-023-39889-1);
+[MetaboAnalystR 3.0](https://pubmed.ncbi.nlm.nih.gov/32392884/);
+[Mummichog](https://pubmed.ncbi.nlm.nih.gov/23861661);
