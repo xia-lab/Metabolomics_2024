@@ -16,11 +16,11 @@ Details for each workflow are below.
 
 # Slides In Sections
 
-- [Introduction and Key Concepts](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/General_intro_MetaboAnalyst.pdf).
-- [LC-MS/MS spectral processing and compound indentification](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/LC_MSMS_spec_section.pdf).
-- [Functional analysis from LC-MS peaks](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/Functional_analysis_section.pdf).
-- [Metabolomics Statistical Analysis of One-factor experimenta and complex metadatal design](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/statistics_section.pdf).
-- [Causal Analysis and conclusion](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/Causal_analysis_summarization.pdf).
+- [Introduction and Key Concepts](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/1_General_intro_MetaboAnalyst.pdf).
+- [LC-MS/MS spectral processing and compound indentification](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/2_LC_MSMS_spec_section.pdf).
+- [Functional analysis from LC-MS peaks](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/3_Functional_analysis_section.pdf).
+- [Metabolomics Statistical Analysis of One-factor experimenta and complex metadatal design](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/4_statistics_section.pdf).
+- [Causal Analysis and conclusion](https://github.com/xia-lab/Metabolomics_2024/blob/main/slides/5_Causal_analysis_summarization.pdf).
 
 <br/>
 
